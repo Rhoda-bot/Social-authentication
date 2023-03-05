@@ -1,0 +1,82 @@
+.signup
+    justify-content: center
+    align-items: center
+    text-align: center  
+    &__img
+        height: 100vh
+        background-repeat: no-repeat
+        background-size: cover  
+    &__col
+        position: relative
+        &--title
+            color: #404040
+            margin-bottom: $small-space
+        &--logo
+            margin-bottom: $small-space
+        &--label
+            font-weight: 600
+            margin-bottom: .3rem
+            color: #404040
+        &--eye
+            position: absolute 
+            top: 10px
+            right:25px
+            cursor: pointer  
+            z-index: 2
+            color: #828789
+        &--texts
+            color: #828789
+        &--btn
+            background-color: #D0D5DD
+            padding: $smallest-space
+            border-radius: 8px
+            border: 1px solid #F7F3F8
+            font-weight: 500
+            width: 95%
+            left: 10px
+            position: relative
+            &:hover
+                background-color: #D8E5EB
+                transition: ease-out .8s
+        &--btn2
+            background-color: transparent
+            padding: $smallest-space
+            border-radius: 8px
+            border: 1px solid #F7F3F8
+            font-weight: 500
+            width: 95%
+            left: 10px
+            position: relative
+            &:hover
+                background-color: #D8E5EB
+                transition: ease-out .8s
+        &--btn3
+            background-color: #335AFF
+            border-radius: 8px
+            color: $white    
+            padding: $smallest-space 
+            border: #335AFF
+        &--icon
+            position: absolute
+            left: 20px
+        &--text
+            position: absolute
+            top: 15%
+            width: 100%
+@media screen and (max-width: 575px) 
+    .signup
+        &__col
+            top: 50% 
+            &--icon
+                left: .6rem              
+        &__img
+            display: none
+            &--text
+                background-color: $yellow
+            &--btn
+                width: 80%
+@media screen and (max-width: 768px) 
+    .signup
+         &__col
+            &--icon
+                left: .3rem              
