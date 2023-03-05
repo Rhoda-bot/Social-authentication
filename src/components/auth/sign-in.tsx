@@ -6,7 +6,7 @@ const SignIn = () => {
     const [profile, setProfile] = useState<any>([]);
     const [provider, setProvider] = useState('')
     const onLoginStart = useCallback(() => {
-        alert('login start')
+        console.log('login start')
       }, [])
     return(
         <>
