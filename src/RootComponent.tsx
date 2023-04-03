@@ -13,6 +13,10 @@ import ForgotPassword from './components/auth/forgotPassword'
 import ResetPassword from './components/auth/ResetPassword'
 import ResetPasswordMail from './components/auth/resetPasswordMail'
 import ResetPasswordMsg from './components/auth/checkPasswordMsg'
+import NavigationBar from './components/reuseables/NavigationBar'
+import Explore from './components/profile'
+import ProfileHome from './components/profile/profileHome'
+import { ProtectedRoute } from './resources/protectedRoute'
 
 const RootComponent: React.FC = () => {
     return (
@@ -20,6 +24,7 @@ const RootComponent: React.FC = () => {
             <Routes>
                 <Route path="*" element={<NotFoundPage />} />
                 <Route path={ROUTES.HOMEPAGE_ROUTE} element={<HomePage />} />
+                    {/* AUTHENTICATION PAGES */}
                 <Route path="/sign-in" element={<SignIn />} />
                 <Route path="/auth/sign-up" element={<SignUp />} />
                 <Route path="/auth/email" element={<EmailAuth />} />
@@ -28,6 +33,12 @@ const RootComponent: React.FC = () => {
                 <Route path="/auth/reset-password" element={<ResetPassword />} />
                 <Route path="/auth/reset-password-mail" element={<ResetPasswordMail />} />
                 <Route path="/auth/success" element={<ResetPasswordMsg />} />
+                    {/* AUTHENTICATION PAGES */}
+                
+                <Route path='/' element={<ProtectedRoute />}>
+                    <Route path="explore" element={<Explore/>}/>
+                    
+                </Route>
             </Routes>
         </Router>
     )

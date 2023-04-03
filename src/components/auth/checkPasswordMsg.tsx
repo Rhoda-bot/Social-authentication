@@ -4,7 +4,7 @@ const ResetPasswordMsg = () => {
     return(
         <>
             <div className="signup">
-                <div className="container-fluid">
+                <div className="container-fluid p-0 h-100">
                     <div className="row g-0">
                         <div className="col-md-6 signup__col">
                             <div className="signup__col--text">

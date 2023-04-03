@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "desc": "Trending quizzes",
+        "others": [
+            {
+                "id": 1,
+                "image": "/assets/explore/frame4.png",
+                "title": "Animal Adventures",
+                "questions": "15 Questions"
+            },
+            {
+                "id": 2,
+                "image": "/assets/explore/frame5.png",
+                "title": "Language Lingo",
+                "questions": "15 Questions"
+            },
+            {
+                "id": 3,
+                "image": "/assets/explore/frame3.png",
+                "title": "Intellectual Inferno",
+                "questions": "15 Questions"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "desc": "Most played quizzes",
+        "others": [
+            {
+                "id": 1,
+                "image": "/assets/explore/frame2.png",
+                "title": "Sports Savvy",
+                "questions": "15 Questions"
+            },
+            {
+                "id": 2,
+                "image": "/assets/explore/frame.png",
+                "title": "Musical Mayhem",
+                "questions": "15 Questions"
+            },
+            {
+                "id": 3,
+                "image": "/assets/explore/frame6.png",
+                "title": "Brain Busters",
+                "questions": "15 Questions"
+            }
+        ]
+    }
+]

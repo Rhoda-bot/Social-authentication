@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Explore",
+        "icon": "fa-light fa-bolt"
+    },
+    {
+        "id": 2,
+        "name": "Profile",
+        "icon": "fa-light fa-user"
+        
+    },
+    {
+        "id": 3,
+        "name": "Leaderboard",
+        "icon": "fa-thin fa-award"
+    },
+    {
+        "id": 4,
+        "name": "Favorites",
+        "icon": "fa-thin fa-heart"
+    },
+    {
+        "id": 5,
+        "name": "Settings",
+        "icon": "fa-thin fa-gear"
+    }
+]

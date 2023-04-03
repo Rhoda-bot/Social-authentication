@@ -1,0 +1,63 @@
+[
+    {   "id": 1,
+        "menu": "Brain Teasers and Riddles",
+     "categorie": [
+        {   "id": 1,
+            "image": "/assets/explore/test10.png",
+            "description": "Syntax Scramble",
+            "category": "Language"
+        },
+        {   "id": 2,
+            "image": "/assets/explore/test9.png",
+            "description": "Are You a Riddle Master?",
+            "category": "Psychology"
+        },
+        {   "id": 3,
+        "image": "/assets/explore/test.png",
+        "description": "Science Spectacular",
+        "category": "Nature"
+        }
+     ]   
+    },
+    
+    {   "id": 2,
+        "menu": "Historical Events",
+     "categorie": [
+        {   "id": 4,
+            "image": "/assets/explore/test2.png",
+            "description": "Famous Battles and Wars",
+            "category": "History"
+        },
+        {   "id": 5,
+            "image": "/assets/explore/test3.png",
+            "description": "Key Dates and Events",
+            "category": "Nature"
+        },
+        {   "id": 6,
+        "image": "/assets/explore/test8.png",
+        "description": "Time Capsule Trivia",
+        "category": "History"
+        }
+     ]   
+    },
+    {   "id": 3,
+        "menu": "Brain Teasers and Riddles",
+     "categorie": [
+        {   "id": 7,
+            "image": "/assets/explore/test4.png",
+            "description": "Syntax Scramble",
+            "category": "Language"
+        },
+        {   "id": 8,
+            "image": "/assets/explore/test5.png",
+            "description": "Are You a Riddle Master?",
+            "category": "Psychology"
+        },
+        {   "id": 9,
+        "image": "/assets/explore/test7.png",
+        "description": "Science Spectacular",
+        "category": "Nature"
+        }
+     ]   
+    }
+]
