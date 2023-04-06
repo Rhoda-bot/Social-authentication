@@ -13,7 +13,7 @@ const  ChangeAvatar = () => {
         <div className="modal-dialog  modal-dialog-centered">
             <div className="modal-content">
             <div className="modal-header border-0">
-                <h4> <i className="fa-regular fa-arrow-left mx-1"></i>Change avatar</h4>
+                <h4  data-bs-toggle="modal" data-bs-target="#exampleModal"> <i className="fa-regular fa-arrow-left mx-1"></i>Change avatar</h4>
                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
