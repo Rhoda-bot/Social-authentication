@@ -3,10 +3,7 @@ import CATEGORIE from "../../utility/categories.json"
 
 const ProfileCategories = () => {
     const categories = CATEGORIE;
-   
-    // useEffect(() => {
-      
-    // })
+
     return(
         <>
             <div className="row mt-3 py-1 justify-content-center">

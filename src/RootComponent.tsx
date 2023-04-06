@@ -13,10 +13,9 @@ import ForgotPassword from './components/auth/forgotPassword'
 import ResetPassword from './components/auth/ResetPassword'
 import ResetPasswordMail from './components/auth/resetPasswordMail'
 import ResetPasswordMsg from './components/auth/checkPasswordMsg'
-import NavigationBar from './components/reuseables/NavigationBar'
 import Explore from './components/profile'
-import ProfileHome from './components/profile/profileHome'
 import { ProtectedRoute } from './resources/protectedRoute'
+import ProfileProfile from './components/profile/profile-profile'
 
 const RootComponent: React.FC = () => {
     return (
@@ -37,6 +36,7 @@ const RootComponent: React.FC = () => {
                 
                 <Route path='/' element={<ProtectedRoute />}>
                     <Route path="explore" element={<Explore/>}/>
+                    <Route path="profile" element={<ProfileProfile/>}/>
                     
                 </Route>
             </Routes>
