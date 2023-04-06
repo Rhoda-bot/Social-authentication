@@ -43,7 +43,7 @@ const getToken = localStorage.getItem('client_token');
                     </button>
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <a className="navbar-brand" href="#">
-                        <img src="/assets/icons/quiztify.png" alt=""  className="img-fluid"/>
+                        <img src="/assets/icons/logo.webp" alt="logo" width={120}  className="img-fluid"/>
                     </a>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 navigation__menu">
                         <li className="nav-item  px-3">
