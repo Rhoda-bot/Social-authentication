@@ -31,10 +31,10 @@ const EditProfile = () => {
                 <div className="col-md-12 mt-1">
                     <label htmlFor="name" className="text-start">Country</label>
                     <select className="form-select" aria-label="Default select example">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    <option selected>Nigeria</option>
+                    <option value="1">Canada</option>
+                    <option value="2">Ghana</option>
+                    <option value="3">United Kingdom</option>
                     </select>
 
                 </div>

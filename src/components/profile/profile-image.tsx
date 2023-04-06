@@ -32,11 +32,13 @@ const handleGetThisImageChecked = (id: number) =>{
 } 
     return(
         <>
-            <div className="text-center mb-3 profile__cta d-inline-block p-2">
+            <div className="row mx-auto justify-content-center">
+            <div className="col-md-4 text-center mb-3 profile__cta d-inline-block p-2">
                     <button onClick={handleFemaleImages} className={active==true ?"profile__cta--inactive" : "profile__cta--active"}>male</button>
                     <button onClick={handleMenImages} className={active==false ?"profile__cta--inactive" : "profile__cta--active"}>female</button>
             </div>
-            <div className="row justify-content-center align-center">
+            </div>
+            <div className="row justify-content-center align-items-center text-center">
                 {
                      profileImages.map(({image,id}:ImagePropertie)=>(
                         <div className="col-3 col-md-2 py-2 px-1" key={id}>
@@ -58,7 +60,7 @@ const handleGetThisImageChecked = (id: number) =>{
                         </div>
                     ))
                 }
-                <div>
+                <div className="text-center">
                    <label htmlFor="upload">Upload local image</label>
                    <input type="file" name="" id="" />
                 </div>
