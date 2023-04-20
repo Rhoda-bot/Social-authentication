@@ -8,9 +8,6 @@ const getToken = localStorage.getItem('client_token');
     const navigate = useNavigate();
     const [user, setUser] = useState<any>();
     
-    // const getUser =   getCurrentUser();
-    // console.log(getUser);
-    
     
     useEffect(() => {
         if(!getToken){
@@ -32,7 +29,6 @@ const getToken = localStorage.getItem('client_token');
         
     }, [getToken])
     
-    console.log(user);
     return(
         <>
             <div className="navigation">

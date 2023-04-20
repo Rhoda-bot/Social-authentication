@@ -19,10 +19,7 @@ const  ChangeAvatar = () => {
             <div className="modal-body">
               <ImageCheckbox />
             </div>
-            <div className="modal-footer border-0  justify-content-center">
-                <button type="button" className="btn btn-light" data-bs-dismiss="modal">Close</button>
-                <button type="button" className="btn btn-primary">Save</button>
-            </div>
+            
             </div>
         </div>
     </div>

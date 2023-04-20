@@ -16,6 +16,8 @@ import ResetPasswordMsg from './components/auth/checkPasswordMsg'
 import Explore from './components/profile'
 import { ProtectedRoute } from './resources/protectedRoute'
 import ProfileProfile from './components/profile/profile-profile'
+import LeaderBoard from './components/profile/profile-leaderboard'
+import ProfileFavourites from './components/profile/profile-favourites'
 
 const RootComponent: React.FC = () => {
     return (
@@ -37,6 +39,8 @@ const RootComponent: React.FC = () => {
                 <Route path='/' element={<ProtectedRoute />}>
                     <Route path="explore" element={<Explore/>}/>
                     <Route path="profile" element={<ProfileProfile/>}/>
+                    <Route path="leaderboard" element={<LeaderBoard/>}/>
+                    <Route path="favorites" element={<ProfileFavourites/>}/>
                     
                 </Route>
             </Routes>
